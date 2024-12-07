@@ -1,0 +1,9 @@
+The solution involves using absolute URLs or adjusting the relative path to ensure the browser correctly locates the background image.  The updated CSS below uses an absolute path to resolve the issue.  Alternatively, you could modify the relative path in `background-image` to accurately reflect the image's location relative to `solution.css`.  Here is the corrected version:
+```css
+.container {
+  width: 300px;
+  height: 200px;
+  background-color: lightgray;
+  background-image: url('/images/background.jpg'); /* Absolute path */
+}
+```
