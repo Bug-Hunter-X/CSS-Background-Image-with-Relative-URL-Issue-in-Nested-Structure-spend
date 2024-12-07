@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in CSS concerning the use of relative URLs for background images within a nested directory structure.  The `bug.css` file contains the problematic code, while `solution.css` provides a corrected version. The issue revolves around how the browser resolves relative paths in relation to the CSS file's location and the containing HTML file.
