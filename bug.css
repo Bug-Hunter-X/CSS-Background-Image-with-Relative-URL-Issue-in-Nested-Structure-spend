@@ -1,0 +1,1 @@
+The following CSS code snippet demonstrates an unusual issue where the `background-image` property does not apply correctly when using a relative URL within a nested structure.  The expected behavior is to display the background image; however, the image fails to load and only the background color is shown.
